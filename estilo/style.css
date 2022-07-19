@@ -18,6 +18,7 @@
     --cor3:#2fa866;
     --cor4:#1a5c37;
     --cor5:#063d1e;
+    --cor6:white;
     --fonte-padrao: arial, verdana, helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', 'cursive';
     --fonte-android: 'android', 'cursive';
@@ -35,9 +36,9 @@ a.externo::after{
 
 
 header{
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5) );
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor5) );
     background-color: var(--cor4);
-    min-height: 150px;
+    min-height: 160px;
     text-align: center;
     padding-top: 40px;
 }
@@ -66,14 +67,14 @@ header > p {
     
 }
 nav{
-    background-color: var(--cor2);
+    background-color: var(--cor5);
     text-align: center; 
     padding: 10px; 
     box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.5); 
         
 }
 nav >a{
-    color: var(--cor5);
+    color: var(--cor1);
     padding: 10px;
     text-decoration: none;
     font-weight: bold;
